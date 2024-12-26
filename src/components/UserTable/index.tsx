@@ -43,8 +43,8 @@ export default function UserTable({ data, onEdit, ...rest }: UserTableProps) {
         type="button"
         className="p-2 rounded-full border-solid border-2 border-black"
         onClick={() => {
-          setUserToDelete(user); // Armazenar o usuário a ser excluído
-          setIsDialogOpen(true); // Abrir o modal de confirmação
+          setUserToDelete(user);
+          setIsDialogOpen(true);
         }}
         aria-label={`Excluir ${user.Name}`}
       >

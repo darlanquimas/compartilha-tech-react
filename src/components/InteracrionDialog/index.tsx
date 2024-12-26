@@ -1,7 +1,7 @@
 import * as Dialog from "@radix-ui/react-dialog";
 import { FiX } from "react-icons/fi";
 
-import Button from "../Button"; // Reutilizando o componente Button do seu código
+import Button from "../Button";
 import { toast } from "react-toastify";
 
 interface DecisionDialogProps {
